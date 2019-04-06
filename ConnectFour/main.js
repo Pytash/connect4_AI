@@ -121,6 +121,7 @@ function loop(timeNow) {
     requestAnimationFrame(loop);
 }
 
+// check to see if the player or the computer has won
 function checkWin(row, col) {
     //get all the cells from each direction
     let diagL = [], diagR = [], horiz = [], vert = [];
