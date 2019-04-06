@@ -112,7 +112,7 @@ function loop(timeNow) {
     //update
     goComputer(timeDelta);
 
-    //draw
+    //draws the background, grid, and text when game over
     drawBackground();
     drawGrid();
     drawText();
